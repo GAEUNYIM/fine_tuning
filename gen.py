@@ -90,3 +90,5 @@ def run(weights_dir='output', temperature=1.0, k=400, p=0.9, repetition_penalty=
     )
     
     print('\n'.join(res))
+    # Edit
+    return('\n'.join(res))
